@@ -6,6 +6,9 @@ class Song
   end
 
   def new(name, artist, genre)
+    @name = name
+    @artist = artist
+    @genre = genre
   end
 
   def artist(artist)
