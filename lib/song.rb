@@ -22,15 +22,15 @@ class Song
   end
 
 def genre_count
-  @@genre.uniq 
-end 
+  @@genre.uniq
+end
 
 
 
 
 
 
-  
+
 
   def initialize(name, artist, genre)
     @name = name
