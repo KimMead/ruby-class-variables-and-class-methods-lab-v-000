@@ -12,6 +12,15 @@ class Song
     @@genres.uniq
   end
 
+  def new(name, artist, genre)
+  end 
+
+  @@artists = []
+
+  def artists
+    @@artists.uniq
+  end
+
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
