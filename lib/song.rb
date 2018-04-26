@@ -21,6 +21,17 @@ class Song
     @@artists.uniq
   end
 
+def genre_count
+  @@genre.uniq 
+end 
+
+
+
+
+
+
+  
+
   def initialize(name, artist, genre)
     @name = name
     @artist = artist
